@@ -1,5 +1,3 @@
-import decimal
-
 consumo = int(input())
 
 custo = 0.0
@@ -19,4 +17,4 @@ if consumo > 200:
   for i in range(201, consumo+1):
     custo += 0.27836
 
-print(decimal.Decimal(round(custo, 2)))
+print(round(custo, 2))
