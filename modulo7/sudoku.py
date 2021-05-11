@@ -20,6 +20,5 @@ for i in range(length):
     for _ in range(9):
         sudoku.append([int(w) for w in input().strip().split(" ")])
 
-    print(f'Instacia {i+1}')
+    print(f'Instancia {i+1}')
     print(is_sudoku(sudoku))
-    print()
